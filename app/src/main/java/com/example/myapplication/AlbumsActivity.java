@@ -27,7 +27,7 @@ public class AlbumsActivity extends AppCompatActivity {
     }
 
     private void intiAlbums() {
-        for (int i=0;i<20;i++){
+        for (int i=0;i<10;i++){
             albums_entity a=new albums_entity(R.drawable.music_img_album_default,"A");
             albumsList.add(a);
             albums_entity b=new albums_entity(R.drawable.music_img_album_default,"A");
